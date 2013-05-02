@@ -1,1 +1,1 @@
-$(window).ready(function(){alert("OH WOW!")});
+$(window).ready(function(){$("a").click(function(e){e.preventDefault();var t=$(this).attr("href");$(".ajax_return").html("Loading...");$.ajax({url:t,context:document.body,success:function(e){$(".ajax_return").html(e)}})})});

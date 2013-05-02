@@ -1,4 +1,31 @@
 body {
   margin: 0;
   padding: 0;
-  background: #FFF; }
+  font-family: 'Mainfont';
+  font-weight: normal;
+  font-size: 12px;
+  background: #FFF;
+  /** Sidebar Header **/
+  /** Ajax Return Section **/ }
+  body header.sidebar-header {
+    width: 250px;
+    height: 100%;
+    display: block;
+    position: fixed;
+    background: #FEFEFE;
+    border-right: 1px solid #dddddd; }
+    body header.sidebar-header .menu-header-wrapper ul.menu {
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+      body header.sidebar-header .menu-header-wrapper ul.menu li.menu-item {
+        margin: 0 0;
+        padding: 5px 0 0; }
+        body header.sidebar-header .menu-header-wrapper ul.menu li.menu-item a {
+          color: #333;
+          text-decoration: none; }
+  body section.ajax_return {
+    width: 1020px;
+    padding: 15px;
+    left: 250px;
+    position: relative; }
