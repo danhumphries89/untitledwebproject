@@ -24,6 +24,11 @@ body {
         body header.sidebar-header .menu-header-wrapper ul.menu li.menu-item a {
           color: #333;
           text-decoration: none; }
+  body div.ajax_breadcrumbs {
+    width: 1020px;
+    padding: 15px;
+    left: 250px;
+    position: relative; }
   body section.ajax_return {
     width: 1020px;
     padding: 15px;
