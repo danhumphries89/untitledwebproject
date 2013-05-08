@@ -3,7 +3,7 @@ body{
 	padding: 0;
 	font-family: 'Mainfont';
 	font-weight: normal;
-	font-size: 12px;
+	font-size: 14px;
 	background: #FFF;
 
 	/** Sidebar Header **/
@@ -35,10 +35,13 @@ body{
 	/** Ajax Return Section **/
 	div.ajax_breadcrumbs{
 		width: 1020px;
-		padding: 15px;
+		padding: 5px;
 		left: 250px;
 		position: relative;
+
+		a{ margin: 0 10px 0 0; }
 	}
+
 	section.ajax_return{
 		width: 1020px;
 		padding: 15px;
