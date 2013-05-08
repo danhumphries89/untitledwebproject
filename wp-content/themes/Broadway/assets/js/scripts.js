@@ -33,7 +33,7 @@ $(window).ready(function(){
 			success: function(result){
 
 				//if menu-item link is clicked, remove all breadcrumbs
-				if(linkItem.theParent.indexOf('menu-item') === 0){ $('.ajax_breadcrumbs > a').remove(); }
+				if(linkItem.theParent.indexOf('menu-item') === 0){ $('.ajax_breadcrumbs > a').remove(); breadcrumbItems.length = 0; }
 
 				//see if the current linkItem is duplicated in the breadcrumbs
 				if($.inArray(linkItem.title, breadcrumbItems) >= 0) {
